@@ -1,0 +1,38 @@
+'use client'
+
+import Image from 'next/image'
+import Link from 'next/link'
+
+import Logo from '../../public/logos-as/arthur santana-w-shadow.png'
+
+export default function Navbar(){
+	return(
+		<div className={`navbar z-10 px-10`}>
+					<div className="flex-1">
+						<Image
+							src={Logo}
+							width={130}
+							height={30}
+						/>
+					</div>
+					<div className="flex-none">
+						<ul className="menu menu-horizontal px-1">
+							<li><a>sobre mim</a></li>
+							<li>
+								<details>
+									<summary>
+										projetos
+									</summary>
+									<ul className="p-2 bg-violet-600 rounded-t-none mx-3">
+										<li><a href="">projetos de software</a></li>
+										<li><Link href="/graphic-projects">projetos gráficos</Link></li>
+									</ul>
+								</details>
+							</li>
+							<li><a href="">contato</a></li>
+							
+						</ul>
+					</div>
+				</div>
+	)
+}

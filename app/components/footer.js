@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import ImageFooter from '../public/logos-as/branco.png'
-import IGIcon from '../public/icons/ig-icon.png'
-import GHIcon from '../public/icons/github-icon.png'
+import ImageFooter from '../../public/logos-as/branco.png'
+import IGIcon from '../../public/icons/ig-icon.png'
+import GHIcon from '../../public/icons/github-icon.png'
 
 export default function Footer() {
 	return (
@@ -13,10 +13,10 @@ export default function Footer() {
 			<nav>
 				<header className="footer-title">Social</header>
 				<div className="grid grid-flow-col gap-4">
-					<a href="">
+					<a href="https://www.instagram.com/dev.arthur.s/">
 						<Image className='invert-[.70]' src={IGIcon.src} width={40} height={100}/>
 					</a>
-					<a href="">
+					<a href="https://github.com/arthursantana-dev">
 						<Image className='invert-[.70]' src={GHIcon.src} width={40} height={100}/>
 					</a>
 				</div>
