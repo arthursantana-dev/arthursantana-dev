@@ -7,7 +7,7 @@ import Logo from '../../public/logos-as/arthur santana-w-shadow.png'
 
 export default function Navbar(){
 	return(
-		<div className={`navbar z-10 px-10`}>
+		<div className='navbar z-10 px-10 sticky top-0'>
 					<div className="flex-1">
 						<Image
 							src={Logo}
