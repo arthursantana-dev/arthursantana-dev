@@ -65,7 +65,7 @@
 
 ###
 
-<h2 align="center">AI/ML</h2>
+<h2 align="center">AI/ML (studying)</h2>
 
 ###
 
