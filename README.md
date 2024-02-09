@@ -1,7 +1,3 @@
-<p align="left">Hello World!!</p>
-
-###
-
 <h1 align="center">Hi! I'm Arthur Santana 👋</h1>
 
 ###
