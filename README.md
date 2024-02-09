@@ -1,3 +1,9 @@
+###
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/arthursantana-dev/count.svg?"  />
+</div>
+
 <h1 align="center">Hi! I'm Arthur Santana 👋</h1>
 
 ###
@@ -78,12 +84,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="80" alt="numpy logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="80" alt="python logo"  />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/arthursantana-dev/count.svg?"  />
 </div>
 
 ###
