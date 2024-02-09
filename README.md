@@ -2,6 +2,14 @@
 
 ###
 
+<p align="left">I'm 17 years old and I feel ready and excited to embark on my first experience in the information technology field. </p>
+
+<p align="left">I am currently in the last year of Integrated High School in the Systems Development course and I have plans to enroll in the Computer Science course at the University of São Paulo. I am ready and eager to embrace this opportunity in the field of information technology.</p>
+
+<p align="left">Since childhood, my interest in Exact Sciences and Computing has won me awards and left me convinced that I have the necessary skills to excel in software development.</p>
+
+###
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=arthursantana-dev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arthursantana-dev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
