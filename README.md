@@ -8,7 +8,7 @@
 
 ###
 
-<p align="left">I'm 17 years old and I feel ready and excited to embark on my first experience in the information technology field. </p>
+<p align="left">I'm 18 years old and I feel ready and excited to embark on my first experience in the information technology field. </p>
 
 <p align="left">I am currently in the last year of Integrated High School in the Systems Development course and I have plans to enroll in the Computer Science course at the University of São Paulo. I am ready and eager to embrace this opportunity in the field of information technology.</p>
 
