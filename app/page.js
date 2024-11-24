@@ -55,7 +55,7 @@ export default function Home() {
 					</div>
 				</div>
 				
-				<div className="lg:self-start lg:ml-64">
+				<div className="center">
 					<h1 className='text-slate-100 font-semibold text-2xl self-start'>Sobre mim</h1>
 				</div>
 
@@ -65,7 +65,12 @@ export default function Home() {
 					<div>
 						<Image className='rounded-full float-right' src={ProfilePicImage.src} width={150} height={150} />
 						<p>
-							Tenho 17 anos e sinto-me pronto e animado para embarcar na minha <span className="font-semibold text-indigo-900">primeira experiência no ramo da tecnologia da informação</span>.<br/><br/> Atualmente estou no último ano do Ensino Médio Integrado ao curso de <span className="font-semibold text-indigo-900">Desenvolvimento de Sistemas</span> e tenho planos de ingressar no curso de Ciência da Computação na Universidade de São Paulo. Estou pronto e ansioso para abraçar essa oportunidade no campo da tecnologia da informação. <br/><br/>  Desde a infância, meu interesse por Ciências Exatas e Computação me rendeu prêmios e me deixou convencido de que tenho as habilidades necessárias para me destacar no desenvolvimento de software.
+							Sou formado no curso técnico de <span className="font-semibold text-indigo-900">Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo</span> e estou decidido a seguir carreira em Tecnologia da Informação. Meu interesse por Ciências Exatas e Computação começou na infância, rendendo prêmios e reforçando minha confiança nas habilidades necessárias para me destacar no desenvolvimento de software. <br/><br/>
+
+
+							Há mais de três anos, comecei a estudar Python pelo Curso em Vídeo, do Gustavo Guanabara. Adorava criar estruturas lógicas simples para mostrar resultados no terminal. Mas cadê a interface? Ninguém gosta de telas pretas! Foi então que iniciei os estudos de HTML e CSS, aprofundando-me em conceitos como media queries, layout Flexbox, Grid, e nomenclatura BEM. Logo, descobri como manipular elementos com JavaScript e JQuery.<br/><br/>
+
+							Atualmente, estudo <span className="font-semibold text-indigo-900">React e frameworks CSS, como Bootstrap e Tailwind</span>, além de desenvolver projetos mobile com React Native e APIs com Node.js (usando principalmente Express.js). Com 18 anos, estou pronto e animado para embarcar na minha primeira experiência profissional no ramo da tecnologia. Também tenho planos de ingressar no curso de Ciência da Computação na Universidade de São Paulo, continuando minha jornada de aprendizado e inovação.
 						</p>
 					</div>
 				</div>
