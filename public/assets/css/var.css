@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&family=Yeseva+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Syne:wght@500;700&display=swap'); */
+
+
+
+:root {
+	--primary: #210098;
+	--secondary: #B5AADD;
+	--bg: #F0F0F0;
+	--main: #FFFFFF;
+	--content: black;
+	--link: rgb(69, 69, 69);
+
+	--w-light: 300;
+	--w-normal: 500;
+	--w-bold: 700;
+
+	--font-header: "Yeseva One", sans-serif;
+	--font-content: "Source Sans Pro", sans-serif;
+}

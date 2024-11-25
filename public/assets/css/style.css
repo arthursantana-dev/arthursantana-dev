@@ -1,0 +1,268 @@
+@import url(./var.css);
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--bg);
+}
+
+p, a, li {
+	font-family: var(--font-content);
+}
+
+h1, h2 {
+	font-family: var(--font-header);
+}
+
+/* Header */
+
+header.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--main);
+	padding-inline: max(1rem, min(20vw, 3rem)) ;
+	padding-block: 1rem;
+	opacity: 0.9;
+
+	height: 4rem;
+	width: 100%;
+	
+	position: fixed;
+
+	z-index: 2;
+
+	-webkit-box-shadow: 5px 5px 29px -1px rgba(0,0,0,0.3); 
+	box-shadow: 5px 5px 29px -1px rgba(0,0,0,0.3);
+
+
+	transition: 0.5s;
+	
+}
+
+.header.glass {
+	background: rgba(255, 255, 255, 0.23);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+	border: 1px solid rgba(255, 255, 255, 0.37);
+	height: 4rem;
+	width: 100%;
+	/* transition: 0.5s; */
+}
+
+.header.glass a {
+	color: var(--main);
+}
+
+.header.glass * {
+	opacity: 1;
+}
+
+.header.glass img.site-logo {
+	content: url('../img/logos-as/arthur\ santana-w-no-shadow.png');
+}
+
+header.header  * {
+	opacity: 1;
+}
+
+img.site-logo {
+	width: 8rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	height: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header li {
+	list-style: none;
+}
+
+header a {
+	text-decoration: none;
+	color: var(--content);
+	font-weight: 400;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+/* Hero */
+
+section.hero {
+	object-fit: fill;
+	background-image: url(../img/hero-img\ 2.png);
+	background-size: cover;
+	height: 80vh;
+
+	padding-top: 2.25rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section.hero--purple{
+	background-image: url(../img/purple-clouds.jpg);
+}
+
+div.hero__content {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	align-items: center;
+}
+
+img.hero__img {
+	display: none;
+	width: 12rem;
+    margin-bottom: 2rem;
+}
+
+h1.hero__title, p.hero__desc {
+	color: var(--main);
+}
+
+h1.hero__title {
+	font-size: 7rem;
+}
+
+p.hero__desc {
+	font-size: 2.25rem;
+	font-weight: var(--w-light);
+}
+
+/* Main */
+
+section.card {
+	max-width: min(98vh, 70rem);
+	margin-inline: auto;
+	background-color: var(--main);
+	padding: 1rem;
+	border-radius: 0.25rem;
+
+	/* transform: translateY(-1.5rem); */
+	transition: 0.9s;
+/* 
+	-webkit-box-shadow: 5px 5px 29px -1px rgba(0,0,0,0.3); 
+	box-shadow: 5px 5px 29px -1px rgba(0,0,0,0.3); */
+
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.card.show {
+	transform: translateY(-1.5rem);
+	transition: 0.9s;
+}
+
+
+.card h2.card__title {
+	font-size: 3.5rem;
+	margin-bottom: 0.75rem;
+}
+
+section.card__profile-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+div.vr {
+	border: 1px solid rgb(88, 88, 88);
+	width: 1px !important;
+	height: 9rem;
+	align-self: center;
+}
+
+section.card__profile-info img {
+	width: 10rem;
+	border-radius: 100%;
+}
+
+section.card__profile-info p, section.card__profile-info ul {
+	font-size: 1.2rem;
+	opacity: 0.7;
+	width: 18rem;
+}
+
+
+div.profile-info-content {
+	display: flex;
+	flex-direction: column;
+	height: 10rem;
+}
+
+.card p {
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+}
+
+p.card__content a.card__link {
+	color: var(--link);
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-block: 4rem;
+}
+
+img.footer__img {
+	width: 18rem;
+}
+
+img.footer__icon {
+	width: 2.4rem;
+}
+
+.footer__icon-wrapper{
+	display: flex;
+	justify-content: space-between;
+	gap: 3rem;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+	img.site-logo {
+		display: none;
+	}
+	img.hero__img {
+		display: block;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	nav.ul {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.hero__content{
+		flex-direction: column;
+	}
+
+	footer {
+		flex-direction: column-reverse;
+	}
+
+	.footer__img {
+		margin-top: 2rem;
+	}
+}
