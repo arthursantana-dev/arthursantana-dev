@@ -101,16 +101,15 @@ const Gallery = () => {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto p-4">
-      {/* Abas de navegação */}
-      <div className="flex mb-4">
+    <div className="max-w-screen-lg mx-auto p-4 container bg-slate-100 m-4 rounded-lg text-black shadow-sm">
+      <div className="flex mb-4 justify-center">
         {Object.keys(images).map((category) => (
           <button
             key={category}
             onClick={() => setActiveTab(category)}
             className={`px-4 py-2 mx-2 text-sm font-semibold rounded-md ${
               activeTab === category
-                ? 'bg-blue-500 text-white'
+                ? 'bg-violet-400 text-white'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
@@ -119,7 +118,8 @@ const Gallery = () => {
         ))}
       </div>
 
-      {/* Galeria */}
+      <hr/>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images[activeTab].map((image, index) => (
           <div key={index} className="relative overflow-hidden rounded-lg">

@@ -9,8 +9,16 @@ import Gallery from "./gallery";
 
 export default function GraphicProjects() {
 	return (
-		<main style={{ backgroundImage: `url(${HeroImage.src})`, backgroundSize: 'cover' }}>
+		<main style={{ backgroundImage: `url(${HeroImage.src})`, backgroundSize: 'cover'}}>
 			<Navbar />
+
+			<div className="center w-full flex justify-center">
+				<h1 className='center w-fit text-slate-100 font-semibold text-5xl self-start'>Projetos Gráficos</h1>
+			</div>
+
+			<div className="center w-full flex justify-center">
+				<h1 className='center w-fit text-slate-100 text-lg self-start text-center py-4'>Designs desenvolvidos para projetos pessoais <br/> ou durante prestação de serviço entre 2021 e 2024.</h1>
+			</div>
 
 			<Gallery/>
 

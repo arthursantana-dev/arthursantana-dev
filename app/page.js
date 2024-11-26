@@ -19,7 +19,7 @@ export default function Home() {
 		const typed = new Typed(element.current, {
 			strings: [
 				'Olá, eu sou Arthur! 👋 <br> Sou <span class="text-indigo-700">desenvolvedor de software </span>',
-				'Olá, eu sou Arthur! 👋 <br> Sou <span class="text-indigo-800">designer gráfico</span>',
+				'Olá, eu sou Arthur! 👋 <br> Sou <span class="text-violet-900">designer gráfico</span>',
 				'Olá, eu sou Arthur! 👋 <br> Sou <span class="text-indigo-900">estudante de computação</span>'
 			],
 			typeSpeed: 50,
@@ -55,11 +55,9 @@ export default function Home() {
 					</div>
 				</div>
 				
-				<div className="center">
-					<h1 className='text-slate-100 font-semibold text-2xl self-start'>Sobre mim</h1>
+				<div className="center m-auto w-fit">
+					<h1 className='text-slate-100 font-semibold text-5xl self-start'>Sobre mim</h1>
 				</div>
-
-				
 
 				<div className="container max-w-2xl bg-slate-100 p-5 m-4 rounded-lg text-black shadow-sm">
 					<div>
