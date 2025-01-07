@@ -63,7 +63,7 @@ export default function Home() {
 					<div>
 						<Image className='rounded-full float-right' src={ProfilePicImage.src} width={150} height={150} />
 						<p>
-							Sou formado no curso técnico de <span className="font-semibold text-indigo-900">Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo</span> e estou decidido a seguir carreira em Tecnologia da Informação. Meu interesse por Ciências Exatas e Computação começou na infância, rendendo prêmios e reforçando minha confiança nas habilidades necessárias para me destacar no desenvolvimento de software. <br/><br/>
+							Sou técnico em <span className="font-semibold text-indigo-900">Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo</span> e estou decidido a seguir carreira em Tecnologia da Informação. Meu interesse por Ciências Exatas e Computação começou na infância, rendendo prêmios e reforçando minha confiança nas habilidades necessárias para me destacar no desenvolvimento de software. <br/><br/>
 
 
 							Há mais de três anos, comecei a estudar Python pelo Curso em Vídeo, do Gustavo Guanabara. Adorava criar estruturas lógicas simples para mostrar resultados no terminal. Mas cadê a interface? Ninguém gosta de telas pretas! Foi então que iniciei os estudos de HTML e CSS, aprofundando-me em conceitos como media queries, layout Flexbox, Grid, e nomenclatura BEM. Logo, descobri como manipular elementos com JavaScript e JQuery.<br/><br/>
