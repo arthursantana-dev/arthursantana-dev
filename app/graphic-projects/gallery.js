@@ -102,12 +102,12 @@ const Gallery = () => {
 
   return (
     <div className="max-w-screen-lg mx-auto p-4 container bg-slate-100 m-4 rounded-lg text-black shadow-sm">
-      <div className="flex mb-4 justify-center">
+      <div className="flex mb-4 justify-center flex-wrap">
         {Object.keys(images).map((category) => (
           <button
             key={category}
             onClick={() => setActiveTab(category)}
-            className={`px-4 py-2 mx-2 text-sm font-semibold rounded-md ${
+            className={`px-4 py-2 m-2 text-sm font-semibold rounded-md ${
               activeTab === category
                 ? 'bg-violet-400 text-white'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
