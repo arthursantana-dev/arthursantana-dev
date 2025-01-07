@@ -45,7 +45,7 @@ export default function Home() {
 
 				<Navbar />
 
-				<div className="hero-content text-center my-40">
+				<div className="hero-content text-center my-20">
 					<div className="max-w-xl">
 						<h1 className="text-2xl md:text-5xl h-40 font-bold">
 							<span ref={element}></span>
