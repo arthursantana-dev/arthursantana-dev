@@ -21,7 +21,7 @@ export default function Navbar(){
 										projetos
 									</summary>
 									<ul className="p-3 bg-violet-400 rounded-t-none mx-3">
-										<li><a href="" className='w-full no-underline text-gray-200' >projetos de software</a></li>
+										<li><Link href="/software-projects" className='w-full no-underline text-gray-200' >projetos de software</Link></li>
 										<li><Link href="/graphic-projects" className='no-underline text-gray-200'>projetos gráficos</Link></li>
 									</ul>
 								</details>
